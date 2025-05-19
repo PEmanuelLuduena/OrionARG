@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OriónARG - Canal de Twitch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+<header>
+  <a href="https://www.twitch.tv/Dumbito20" target="_blank" class="btn-twitch">
+    <i data-lucide="twitch"></i> Seguí mi Twitch
+  </a>
+</header>
+
+<section>
+    <h2>Horarios de Stream</h2>
+    <ul>
+      <li>🎮 Viernes a Domingo: 19:00 - 22:00 (ARG)</li>
+ </ul>
+     <p>¡No te pierdas los streams en vivo! La diversión está garantizada.</p>
+</section>
+     
+<section>
+    <h2>Mis Redes Sociales</h2>
+    <ul>
+        </a></li>
+        <li><a href="https://twitter.com/" target="_blank">
+            <i data-lucide="twitter"></i> Twitter
+        </a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">
+            <i data-lucide="instagram"></i> Instagram
+        </a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">
+            <i data-lucide="youtube"></i> YouTube
+        </a></li>
+    </ul>
+</section>
+
+<footer>
+        <p>&copy; 2025 OriónARG. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
