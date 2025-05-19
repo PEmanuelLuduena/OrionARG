@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
+  <div class="container"
 <header>
   <a href="https://www.twitch.tv/Dumbito20" target="_blank" class="btn-twitch">
     <i data-lucide="twitch"></i> Seguí mi Twitch
@@ -37,10 +38,17 @@
         </a></li>
     </ul>
 </section>
+<form id="contact-form">
+  <input type="text" name="name" placeholder="Tu nombre" required />
+  <input type="email" name="email" placeholder="Tu correo" required />
+  <textarea name="message" placeholder="Tu mensaje" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
 
 <footer>
         <p>&copy; 2025 OriónARG. Todos los derechos reservados.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
 </body>
 </html>
